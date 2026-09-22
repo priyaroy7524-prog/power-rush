@@ -75,7 +75,7 @@ export default function ProductDescription() {
         2xl:py-[155px]
       "
     >
-      {/* WIDE CONTENT */}
+     
       <div
         className="
           mx-auto
@@ -83,7 +83,7 @@ export default function ProductDescription() {
           max-w-[1450px]
         "
       >
-        {/* ACCORDION */}
+       
         <div className="w-full border-t border-white/20">
           {sections.map((section) => {
             const isOpen = openSection === section.id;
@@ -93,7 +93,7 @@ export default function ProductDescription() {
                 key={section.id}
                 className="w-full border-b border-white/20"
               >
-                {/* HEADER */}
+                
                 <button
                   type="button"
                   onClick={() => toggleSection(section.id)}
@@ -122,7 +122,7 @@ export default function ProductDescription() {
                     2xl:py-[35px]
                   "
                 >
-                  {/* TITLE */}
+                  
                   <span
                     className="
                       min-w-0
@@ -163,7 +163,7 @@ export default function ProductDescription() {
                     {section.title}
                   </span>
 
-                  {/* PLUS / MINUS */}
+                
                   <span
                     className={`
                       relative
@@ -198,7 +198,7 @@ export default function ProductDescription() {
                       }
                     `}
                   >
-                    {/* Horizontal line */}
+                   
                     <span
                       className="
                         absolute
@@ -236,7 +236,7 @@ export default function ProductDescription() {
                   </span>
                 </button>
 
-                {/* CONTENT */}
+               
                 <div
                   className={`
                     grid
@@ -278,7 +278,7 @@ export default function ProductDescription() {
                       "
                     >
                       {Array.isArray(section.content) ? (
-                        /* BENEFITS */
+                      
                         <div
                           className="
                             grid
@@ -314,7 +314,7 @@ export default function ProductDescription() {
                                 lg:gap-[12px]
                               "
                             >
-                              {/* DOT */}
+                            
                               <span
                                 className="
                                   mt-[5px]
@@ -329,7 +329,7 @@ export default function ProductDescription() {
                                 "
                               />
 
-                              {/* TEXT */}
+                            
                               <p
                                 className="
                                   min-w-0
@@ -360,7 +360,7 @@ export default function ProductDescription() {
                           ))}
                         </div>
                       ) : (
-                        /* NORMAL CONTENT */
+                       
                         <p
                           className="
                             w-full

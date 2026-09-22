@@ -177,16 +177,16 @@ export default function AllProductsHero() {
   };
 
   return (
-    <section
-      className="
-        relative
-        min-h-screen
-        min-h-[100dvh]
-        w-full
-        overflow-x-hidden
-        bg-black
-        text-white
-      "
+   <section
+  className="
+    relative
+    min-h-screen
+    min-h-[100dvh]
+    w-full
+    overflow-hidden
+    bg-black
+    text-white
+  "
       style={
         {
           "--product-enter-x": "clamp(90px, 24vw, 360px)",
@@ -283,7 +283,7 @@ export default function AllProductsHero() {
        
        {/* MOBILE PRODUCT + SPLASH */}
 <div className="relative w-full h-[345px] flex items-center justify-center my-0">
-  {/* Splash */}
+  
   <motion.div
     key={`splash-${activeFlavour}`}
     variants={splashVariants}
@@ -303,7 +303,7 @@ export default function AllProductsHero() {
     />
   </motion.div>
 
-  {/* Product */}
+ 
   <motion.div
     key={`product-${activeFlavour}`}
     variants={productVariants}
@@ -324,7 +324,7 @@ export default function AllProductsHero() {
   </motion.div>
 </div>
 
-{/* MOBILE ROCK — directly below product */}
+
 <div className="relative z-10 -mt-1 flex w-full justify-center">
   <Image
     src="/images/smallRock.png"
@@ -338,7 +338,7 @@ export default function AllProductsHero() {
 
 {/* CONTENT STARTS IMMEDIATELY AFTER ROCK */}
 <div className="relative z-20 mt-0 flex flex-col items-center text-center">
-  {/* yahan tumhara existing title/content */}
+  
 </div>
 
         <div className="text-center mt-2 w-full">

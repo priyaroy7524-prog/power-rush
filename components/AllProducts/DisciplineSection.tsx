@@ -15,7 +15,7 @@ export default function DisciplineSection() {
         bg-black
       "
     >
-      {/* MAIN IMAGE */}
+     
       <motion.div
         initial={{ opacity: 0, scale: 1 }}
         whileInView={{ opacity: 1, scale: 1 }}
@@ -61,7 +61,7 @@ export default function DisciplineSection() {
         </div>
       </motion.div>
 
-      {/* TOP NATURAL BLEND */}
+    
       <div
         className="
           pointer-events-none
@@ -88,7 +88,7 @@ export default function DisciplineSection() {
         "
       />
 
-      {/* BOTTOM NATURAL BLEND */}
+     
       <div
         className="
           pointer-events-none
@@ -115,22 +115,7 @@ export default function DisciplineSection() {
         "
       />
 
-      {/* CONTENT */}
-      {/* <div
-        className="
-          relative
-          z-10
-          mx-auto
-          flex
-          min-h-[100dvh]
-          w-full
-          max-w-[1500px]
-          items-end
-          px-[16px]
-          pb-[45px]
-        "
-      >
-      </div> */}
+     
     </section>
   );
 }

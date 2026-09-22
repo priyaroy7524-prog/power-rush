@@ -19,10 +19,6 @@ export default function FinalStage() {
     2xl:min-h-[1100px]
       "
     >
-      {/* =====================================================
-          FOOTER BACKGROUND IMAGE
-          ORIGINAL IMAGE RATIO MAINTAINED
-      ====================================================== */}
       <div
         className="
           pointer-events-none
@@ -71,10 +67,6 @@ export default function FinalStage() {
         />
       </div>
 
-      {/* =====================================================
-          TOP BLEND
-          VERY LIGHT ON SMALL SCREENS
-      ====================================================== */}
       <div
         className="
           pointer-events-none
@@ -97,10 +89,6 @@ export default function FinalStage() {
         "
       />
 
-      {/* =====================================================
-          BOTTOM BLEND
-          KEEP IT LIGHT SO ROCKS REMAIN VISIBLE
-      ====================================================== */}
       <div
         className="
           pointer-events-none
@@ -123,9 +111,6 @@ export default function FinalStage() {
         "
       />
 
-      {/* =====================================================
-          CENTER PRODUCT
-      ====================================================== */}
       <motion.div
         className="
           absolute

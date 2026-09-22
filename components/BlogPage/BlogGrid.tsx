@@ -82,9 +82,6 @@ export default function BlogGrid() {
         2xl:px-[60px]
       "
     >
-      {/* =====================================================
-          BLOG GRID
-      ====================================================== */}
 
       <div
         className="
@@ -125,9 +122,7 @@ export default function BlogGrid() {
               overflow-hidden
             "
           >
-            {/* =================================================
-                IMAGE
-            ================================================== */}
+           
 
             <div
               className="
@@ -157,9 +152,7 @@ export default function BlogGrid() {
               />
             </div>
 
-            {/* =================================================
-                CATEGORY
-            ================================================== */}
+           
 
             <div
               className="
@@ -206,9 +199,6 @@ export default function BlogGrid() {
               </span>
             </div>
 
-            {/* =================================================
-                TITLE
-            ================================================== */}
 
             <h2
               className="
@@ -243,9 +233,7 @@ export default function BlogGrid() {
               {blog.title}
             </h2>
 
-            {/* =================================================
-                DESCRIPTION
-            ================================================== */}
+          
 
             <p
               className="
@@ -283,9 +271,7 @@ export default function BlogGrid() {
         ))}
       </div>
 
-      {/* =====================================================
-          PAGINATION
-      ====================================================== */}
+    
 
       <div
         className="
@@ -311,7 +297,6 @@ export default function BlogGrid() {
           lg:gap-[28px]
         "
       >
-        {/* PAGE 1 */}
         <button
           type="button"
           aria-label="Page 1"
@@ -346,7 +331,6 @@ export default function BlogGrid() {
           1
         </button>
 
-        {/* PAGE 2 */}
         <button
           type="button"
           aria-label="Page 2"
@@ -365,7 +349,7 @@ export default function BlogGrid() {
           2
         </button>
 
-        {/* PAGE 3 */}
+      
         <button
           type="button"
           aria-label="Page 3"
@@ -384,7 +368,7 @@ export default function BlogGrid() {
           3
         </button>
 
-        {/* NEXT */}
+     
         <button
           type="button"
           aria-label="Next page"
@@ -404,9 +388,7 @@ export default function BlogGrid() {
         </button>
       </div>
 
-      {/* =====================================================
-          RIGHT SIDE DECORATIVE LINE
-      ====================================================== */}
+  
 
       <div
         className="

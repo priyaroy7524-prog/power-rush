@@ -30,7 +30,6 @@ export default function MountainMarquee() {
         2xl:h-[470px]
       "
     >
-    
       <motion.div
         className="
           absolute
@@ -51,7 +50,6 @@ export default function MountainMarquee() {
           ease: "linear",
         }}
       >
-     
         <span
           className="
             shrink-0
@@ -76,7 +74,6 @@ export default function MountainMarquee() {
           POWER RUSH&nbsp; POWER RUSH&nbsp;POWER RUSH&nbsp; POWER RUSH&nbsp;
         </span>
 
-      
         <span
           className="
             shrink-0
@@ -101,7 +98,6 @@ export default function MountainMarquee() {
         </span>
       </motion.div>
 
-      
       <div
         className="
           pointer-events-none
@@ -149,7 +145,6 @@ export default function MountainMarquee() {
           "
         />
 
-        
         <div
           className="
             pointer-events-none

@@ -45,10 +45,7 @@ export default function BlogHero() {
     2xl:pb-[100px]
   "
 >
-  {/* =====================================================
-      SINGLE BACKGROUND IMAGE
-      bloghome.png contains the complete Figma background
-  ====================================================== */}
+  
 
   <div className="absolute inset-0 z-0">
     <Image
@@ -69,9 +66,7 @@ export default function BlogHero() {
 />
   </div>
 
-      {/* =====================================================
-          BOTTOM IMAGE BLEND
-      ====================================================== */}
+   
 
       <div
         className="
@@ -103,9 +98,7 @@ export default function BlogHero() {
         "
       />
 
-      {/* =====================================================
-          HERO CONTENT
-      ====================================================== */}
+   
 
       <div
         className="

@@ -40,9 +40,7 @@ export default function RoutineSection() {
         text-white
       "
     >
-      {/* =========================
-          LEFT ROCK
-      ========================== */}
+   
       <div
         className="
     pointer-events-none
@@ -68,7 +66,6 @@ export default function RoutineSection() {
     "
         />
 
-        {/* TOP BLEND */}
         <div
           className="
       pointer-events-none
@@ -84,9 +81,7 @@ export default function RoutineSection() {
         />
       </div>
 
-      {/* =========================
-          RIGHT ROCK
-      ========================== */}
+   
       <div
         className="
     pointer-events-none
@@ -113,7 +108,7 @@ export default function RoutineSection() {
     "
         />
 
-        {/* TOP BLEND */}
+      
         <div
           className="
       pointer-events-none
@@ -129,9 +124,6 @@ export default function RoutineSection() {
         />
       </div>
 
-      {/* =========================
-          CONTENT
-      ========================== */}
       <div
         className="
           relative
@@ -150,9 +142,7 @@ export default function RoutineSection() {
           lg:px-[80px]
         "
       >
-        {/* =========================
-            TOP HEADING
-        ========================== */}
+      
         <div
           className="
             relative

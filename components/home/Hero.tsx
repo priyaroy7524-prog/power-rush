@@ -72,19 +72,20 @@ export default function Hero() {
         />
 
         {/* LEFT DESCRIPTION */}
-        <div
-          className="
+<div
+  className="
     absolute
-    left-[10%]
-    top-[19%]
+    left-[25%]
+    top-[25%]
     z-[60]
 
-    w-[170px]
+    w-[285px]
+    h-[60px]
     max-w-[72vw]
 
     font-sf
     text-left
-    text-[14px]
+    text-[15px]
     font-medium
     leading-[1.1]
     tracking-[-0.01em]
@@ -92,11 +93,13 @@ export default function Hero() {
 
     max-[767px]:!hidden
   "
-        >
-          Power Rush is built for those who take their training seriously. Each
-          single-serving stick combines Creatine Monohydrate, Caffeine, and
-          Taurine
-        </div>
+>
+  Power Rush is built for those who <br />take their training seriously. Each
+  
+  single-<br />serving stick combines Creatine <br /> Monohydrate, Caffeine,
+  
+  Taurine
+</div>
       </motion.div>
 
       <motion.div
@@ -147,11 +150,11 @@ export default function Hero() {
   "
         />
 
-        <div
-          className="
+   <div
+  className="
     absolute
-    right-[10%]
-    top-[61%]
+    right-[35%]
+    !top-[63%]
     z-[60]
 
     w-[170px]
@@ -167,24 +170,26 @@ export default function Hero() {
 
     max-[767px]:hidden
 
-    sm:top-[60%]
+    sm:!top-[63%]
     sm:w-[225px]
     sm:text-[12px]
     sm:leading-[1.08]
 
-    md:top-[59%]
+    md:!top-[63%]
     md:w-[250px]
     md:text-[14px]
 
-    lg:right-[12%]
-    lg:top-[60%]
+    lg:right-[30%]
+    lg:!top-[63%]
     lg:w-[285px]
     lg:text-[17px]
 
+    xl:right-[30%]
+    xl:!top-[63%]
     xl:w-[285px]
     xl:text-[17px]
   "
-        >
+>
           Power Rush is built for those who take their training seriously. Each
           single-serving stick combines Creatine Monohydrate, Caffeine, and
           Taurine
@@ -472,9 +477,9 @@ export default function Hero() {
               text-[19px]
               leading-none
 
-              min-[380px]:text-[10px]
+              min-[380px]:text-[18px]
 
-              min-[480px]:text-[11px]
+              min-[480px]:text-[18px]
 
               sm:text-[13px]
 
@@ -492,9 +497,12 @@ export default function Hero() {
               text-[6px]
               tracking-[0.05em]
 
-              min-[380px]:text-[6.5px]
+              min-[380px]:text-[10.2px]
+              min-[380px]:font-[550]
 
-              min-[480px]:text-[7px]
+              min-[480px]:text-[10.2px]
+              min-[480px]:font-[500]
+
 
               sm:text-[19px]
 
@@ -535,9 +543,9 @@ export default function Hero() {
               text-[19px]
               leading-none
 
-              min-[380px]:text-[10px]
+              min-[380px]:text-[18px]
 
-              min-[480px]:text-[11px]
+              min-[480px]:text-[18px]
 
               sm:text-[23px]
 
@@ -555,7 +563,7 @@ export default function Hero() {
               text-[6px]
               tracking-[0.05em]
 
-              min-[380px]:text-[6.5px]
+              min-[380px]:text-[12.5px]
 
               min-[480px]:text-[7px]
 
@@ -598,9 +606,9 @@ export default function Hero() {
               text-[19px]
               leading-none
 
-              min-[380px]:text-[10px]
+              min-[380px]:text-[18px]
 
-              min-[480px]:text-[11px]
+              min-[480px]:text-[18px]
 
               sm:text-[23px]
 
@@ -618,7 +626,8 @@ export default function Hero() {
               text-[6px]
               tracking-[0.05em]
 
-              min-[380px]:text-[6.5px]
+              min-[380px]:text-[12.5px]
+              min-[380px]:gap-0
 
               min-[480px]:text-[7px]
 

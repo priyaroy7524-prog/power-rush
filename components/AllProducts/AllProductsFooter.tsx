@@ -8,9 +8,7 @@ export default function AllProductsFooter() {
   return (
     <section className="relative w-full overflow-hidden bg-black">
 
-      {/* =========================
-          SMOOTH BLEND FROM PREVIOUS SECTION
-      ========================== */}
+  
       <div
         className="
           pointer-events-none
@@ -27,16 +25,12 @@ export default function AllProductsFooter() {
         "
       />
 
-      {/* =========================
-          FINAL STAGE
-      ========================== */}
+  
       <div className="relative z-[10]">
         <FinalStage />
       </div>
 
-      {/* =========================
-          SMOOTH BLEND INTO FOOTER
-      ========================== */}
+    
       <div
         className="
           pointer-events-none
@@ -53,9 +47,7 @@ export default function AllProductsFooter() {
         "
       />
 
-      {/* =========================
-          FOOTER
-      ========================== */}
+    
       <div className="relative z-[40]">
         <Footer />
       </div>

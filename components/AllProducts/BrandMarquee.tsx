@@ -31,9 +31,7 @@ export default function MountainMarquee() {
         2xl:h-[470px]
       "
     >
-      {/* =========================
-          MARQUEE TEXT
-      ========================= */}
+      
       <motion.div
         className="
            absolute
@@ -101,9 +99,7 @@ export default function MountainMarquee() {
         </span>
       </motion.div>
 
-      {/* =========================
-          MOUNTAIN
-      ========================= */}
+      
       <div
         className="
             pointer-events-none
@@ -122,30 +118,7 @@ export default function MountainMarquee() {
           2xl:h-[400px]
         "
       >
-        {/* SOLID BLACK MOUNTAIN SHAPE */}
-        {/* <div
-          className="
-            absolute
-            left-[-120px]
-            bottom-0
-            z-[1]
-            block
-            h-auto
-            w-[calc(100%+120px)]
-            max-w-none
-            bg-black
-            [mask-image:url('/images/mount.png')]
-            [mask-repeat:no-repeat]
-            [mask-position:left_bottom]
-            [mask-size:100%_auto]
-            [-webkit-mask-image:url('/images/mount.png')]
-            [-webkit-mask-repeat:no-repeat]
-            [-webkit-mask-position:left_bottom]
-            [-webkit-mask-size:100%_auto]
-          "
-        /> */}
-
-        {/* ACTUAL MOUNTAIN TEXTURE */}
+      
         <img
           src="/images/mount.png"
           alt="Mountain texture"
@@ -175,7 +148,7 @@ export default function MountainMarquee() {
           "
         />
 
-        {/* BOTTOM BLEND */}
+      
         <div
           className="
               pointer-events-none
@@ -196,7 +169,7 @@ export default function MountainMarquee() {
         />
       </div>
 
-      {/* EXTRA BLACK TRANSITION */}
+    
       <div
         className="
            pointer-events-none

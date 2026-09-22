@@ -41,9 +41,7 @@ export default function BlogPosts() {
         lg:pb-[80px]
       "
     >
-      {/* =====================================================
-          TOP CATEGORY FILTERS
-      ====================================================== */}
+      
 
       <div
   className="
@@ -110,9 +108,6 @@ export default function BlogPosts() {
   ))}
 </div>
 
-      {/* =====================================================
-          BLOG CONTENT
-      ====================================================== */}
 
       <div
         className="
@@ -139,9 +134,6 @@ export default function BlogPosts() {
           lg:gap-[20px]
         "
       >
-        {/* =================================================
-            LEFT IMAGE
-        ================================================== */}
 
         <div
           className="
@@ -176,9 +168,7 @@ export default function BlogPosts() {
           />
         </div>
 
-        {/* =================================================
-            RIGHT CONTENT
-        ================================================== */}
+      
 
         <div
           className="
@@ -203,7 +193,7 @@ export default function BlogPosts() {
             2xl:translate-x-[60px]
           "
         >
-          {/* TITLE */}
+         
 
           <h2
             className="
@@ -236,7 +226,7 @@ export default function BlogPosts() {
             <br className="hidden sm:block" /> A BETTER TRAINING SESSION
           </h2>
 
-          {/* DESCRIPTION */}
+         
 
           <p
             className="
@@ -278,9 +268,7 @@ export default function BlogPosts() {
             ready to train with intensity.
           </p>
 
-          {/* =================================================
-              BUTTONS
-          ================================================== */}
+        
 
           <div
             className="
@@ -297,7 +285,7 @@ export default function BlogPosts() {
               md:mt-[22px]
             "
           >
-            {/* KNOW MORE */}
+            
             
 <Link
   href="/readmore"
@@ -348,7 +336,7 @@ export default function BlogPosts() {
 
 
 
-            {/* ARROW */}
+         
             <button
               type="button"
               aria-label="Read more"
@@ -391,9 +379,7 @@ export default function BlogPosts() {
         </div>
       </div>
 
-      {/* =====================================================
-          RIGHT SIDE DECORATIVE LINE
-      ====================================================== */}
+      
 
       <div
         className="

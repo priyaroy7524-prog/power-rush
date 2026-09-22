@@ -171,9 +171,7 @@ export default function BenefitCard({
         />
       </div>
 
-      {/* =====================================================
-          NUMBER
-      ====================================================== */}
+    
       <div
         className="
           benefit-number

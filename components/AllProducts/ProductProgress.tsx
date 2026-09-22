@@ -4,9 +4,7 @@
 export default function ProductProgress() {
   return (
     <section className="relative w-full overflow-hidden bg-black">
-      {/* =====================================================
-          START YOUR PROGRESS
-      ====================================================== */}
+    
       <div
         className="
           relative
@@ -41,7 +39,7 @@ export default function ProductProgress() {
           2xl:px-[100px]
         "
       >
-        {/* HEADING */}
+       
         <h2
           className="
             w-full
@@ -74,7 +72,7 @@ export default function ProductProgress() {
           START YOUR PROGRESS
         </h2>
 
-        {/* DESCRIPTION */}
+       
         <p
           className="
             mt-[14px]
@@ -119,7 +117,7 @@ export default function ProductProgress() {
           updates, and early access to future releases.
         </p>
 
-        {/* EMAIL FORM */}
+        
         <div
   className="
     mt-[22px]

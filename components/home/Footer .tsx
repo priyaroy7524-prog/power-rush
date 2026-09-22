@@ -1,10 +1,6 @@
 "use client";
 
-import {
-  FaPinterestP,
-  FaInstagram,
-  FaYoutube,
-} from "react-icons/fa";
+import { FaPinterestP, FaInstagram, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 // import { FiRefreshCw } from "react-icons/fi";
 import { FiArrowUp } from "react-icons/fi";
@@ -18,8 +14,8 @@ export default function Footer() {
   };
 
   return (
-   <footer
-  className="
+    <footer
+      className="
     relative
     z-30
     w-full
@@ -58,10 +54,10 @@ export default function Footer() {
     2xl:before:top-[-185px]
     2xl:before:h-[185px]
   "
->
-  {/* NATURAL TOP BLEND */}
-<div
-  className="
+    >
+      {/* NATURAL TOP BLEND */}
+      <div
+        className="
     pointer-events-none
     absolute
     left-[-8%]
@@ -98,8 +94,8 @@ export default function Footer() {
     2xl:top-[-270px]
     2xl:h-[270px]
   "
-/>
-     
+      />
+
       <div
         className="
           flex
@@ -129,7 +125,6 @@ export default function Footer() {
           
         "
       >
-       
         <div
           className="
             flex
@@ -145,7 +140,6 @@ export default function Footer() {
             xl:gap-[60px]
           "
         >
-        
           <div
             className="
               min-w-0
@@ -186,7 +180,6 @@ export default function Footer() {
               xl:gap-[28px]
             "
           >
-         
             <a
               href="#"
               aria-label="Pinterest"
@@ -210,7 +203,6 @@ export default function Footer() {
               />
             </a>
 
-           
             <a
               href="#"
               aria-label="Instagram"
@@ -258,7 +250,6 @@ export default function Footer() {
               />
             </a>
 
-         
             <a
               href="#"
               aria-label="YouTube"
@@ -284,7 +275,6 @@ export default function Footer() {
           </div>
         </div>
 
-        
         <div
           className="
             mt-[20px]
@@ -309,7 +299,6 @@ export default function Footer() {
             xl:mt-[38px]
           "
         >
-          
           <p
             className="
               m-0
@@ -329,10 +318,9 @@ export default function Footer() {
               2xl:text-[21px]
             "
           >
-            Copyright © 2025 the creatine company - All Rights Reserved
+            Copyright © 2026 The Power Rush - All Rights Reserved
           </p>
 
-         
           <div
             className="
               flex
@@ -345,53 +333,51 @@ export default function Footer() {
               md:justify-end
             "
           >
-        
-
-           
-  <button
+     <button
   type="button"
   onClick={scrollToTop}
   aria-label="Reload and go to top"
   className="
-  group
-  flex
-  shrink-0
-  items-center
-  justify-end
-  gap-[7px]
+    group
+    flex
+    shrink-0
+    cursor-pointer
+    items-center
+    justify-end
+    gap-[7px]
 
-  rounded-[5px]
+    rounded-[5px]
 
-  px-[8px]
-  py-[7px]
+    px-[8px]
+    py-[7px]
 
-  transition-all
-  duration-300
+    transition-all
+    duration-300
 
-  hover:bg-white
-  hover:text-black
+    hover:bg-white
+    hover:text-black
 
-  max-[767px]:absolute
-  max-[767px]:right-[20px]
+    max-[767px]:absolute
+    max-[767px]:right-[20px]
 
-  min-[380px]:px-[9px]
-  min-[380px]:py-[8px]
+    min-[380px]:px-[9px]
+    min-[380px]:py-[8px]
 
-  sm:px-[10px]
-  sm:py-[9px]
+    sm:px-[10px]
+    sm:py-[9px]
 
-  md:px-[11px]
-  md:py-[10px]
+    md:px-[11px]
+    md:py-[10px]
 
-  lg:px-[12px]
-  lg:py-[11px]
+    lg:px-[12px]
+    lg:py-[11px]
 
-  xl:px-[1px]
-  xl:py-[12px]
-"
+    xl:px-[1px]
+    xl:py-[12px]
+  "
 >
-  <FiArrowUp
-    className="
+              <FiArrowUp
+                className="
       h-[18px]
       w-[18px]
 
@@ -414,8 +400,8 @@ export default function Footer() {
       xl:h-[25px]
       xl:w-[25px]
     "
-  />
-</button>
+              />
+            </button>
           </div>
         </div>
       </div>
